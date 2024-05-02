@@ -1,0 +1,47 @@
+/*Combinacionde 2 elementos */
+.menu li {
+
+    list-style: none;
+    display: inline-block;/*
+    /*de esta forma aplicas el margin a los 4 lados 
+    margin: 10px;*/
+    /*de esta forma aplicas el margin en sentido horario
+    margin: 10px 20px 30px 70px; */
+    /*de esta forma aplicas el margin en especifico
+    margin-top: 10px;*/
+    border: 1px  solid white;
+    padding: 5px 10px;
+    /*de esta forma aplicas el margin aarriba y abajo y el segundo derecha eh izquierda */
+    margin: 5px 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+       
+}
+.menu {
+    background:    #092b12   ;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    /* va el tipo tamanio y tipo de letra */
+    font: bold 14px Verdana;
+}
+
+
+/*Combinacion jerarquica de 2 elementos 
+.menu, li {
+color: red;
+}
+
+li {
+    background-color: black;
+}
+*/
