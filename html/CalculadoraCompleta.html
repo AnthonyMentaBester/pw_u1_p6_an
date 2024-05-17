@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Completa</title>
+    <link rel="stylesheet" href="/css/calculadora.css">
+    <script src="/js/calculadora.js"></script>
+</head>
+
+<body>
+
+    <header></header>
+    <nav></nav>
+    <section>
+        
+        <div class="container">
+            <div class="calculadora">
+                <div class="display" id="id_display">0</div>
+                <button class="col-2" onclick="vaciar()">C</button>
+                <button onclick="borrar()" > &larr;</button>
+                <button onclick="operar('%')" >%</button>
+                <button onclick="numeroPoner('7')">7</button>
+                <button onclick="numeroPoner('8')">8</button>
+                <button onclick="numeroPoner('9')">9</button>
+                <button onclick="operar('*')">X</button>
+                <button onclick="numeroPoner('4')">4</button>
+                <button onclick="numeroPoner('5')">5</button>
+                <button onclick="numeroPoner('6')">6</button>
+                <button onclick="operar('-')" >-</button>
+                <button onclick="numeroPoner('1')">1</button>
+                <button onclick="numeroPoner('2')">2</button>
+                <button onclick="numeroPoner('3')">3</button>
+                <button onclick="operar('+')">+</button>
+                <button class="col-2" onclick="numeroPoner('0')">0</button>
+                <button onclick="numeroPoner('.')">.</button>
+                <button onclick="calcular()">=</button>
+
+            </div>
+        </div>
+
+
+    </section>
+    <footer></footer>
+
+</body>
+
+</html>
