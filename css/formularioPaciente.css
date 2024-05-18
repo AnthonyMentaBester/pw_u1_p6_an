@@ -39,11 +39,31 @@ h1{
     background: #e0e5ff;
     border-radius: 5px;
     padding: 25px 35px;
-    box-shadow: 0 0 10px 0px #282a35;
+    box-shadow: 0 0 10px 0px #c2cbff;
 
 }
 
 body{
     background: #1b1f36;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+button{
+    padding: 5px 20px;
+    background: #c2cbff;
+    color: #35394d; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500px;
+    box-shadow: 0 0 3px 0px #000;
 }
 
